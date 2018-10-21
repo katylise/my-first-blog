@@ -25,7 +25,7 @@ SECRET_KEY = '0ahyi0jlo3hgtsg4^_@ybd^uesg5f*5rku@=1=49qd^9ww&-o*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'katylise.pythonanywhere.com']
 
 
 # Application definition
@@ -120,4 +120,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-ALLOWED_HOSTS = ['127.0.0.1', 'katylise.pythonanywhere.com']
